@@ -9,6 +9,8 @@
     margin: 0 auto;
 }
 
+
+/* ====================HEADER SECTION START==================== */
 .header-wrapper{
     background-image: url("../images/Banner Image.png"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-size: cover;
@@ -40,3 +42,66 @@
     max-width: 632px;
     margin: 0 auto;
 }
+/* ====================HEADER SECTION ENDED==================== */
+
+/* ====================FOOTER SECTION START==================== */
+.footer{
+    background-color: #070211;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0 50px 0;
+}
+.footer-main .address h6{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 166.667%;
+}
+.footer-main .contact ul li{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 166.667%;
+    list-style: none;
+}
+.footer-social ul{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 50px 0 50px 0;
+    margin: 0;
+}
+.footer-social ul li{
+    list-style-type: none;
+}
+.footer-social ul li a{}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 120px 0;
+}
+.footer-copyright p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-copyright a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+/* ====================FOOTER SECTION ENDED==================== */
