@@ -8,3 +8,35 @@
     max-width: 1320px;
     margin: 0 auto;
 }
+
+.header-wrapper{
+    background-image: url("../images/Banner Image.png"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 177px 0;
+    border-radius: 16px;
+    background-blend-mode: overlay;
+}
+
+.header-wrapper h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-wrapper h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 131%;
+    max-width: 632px;
+    margin: 0 auto;
+}
