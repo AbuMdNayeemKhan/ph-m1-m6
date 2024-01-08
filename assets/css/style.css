@@ -147,15 +147,27 @@
 
 /* ====================WELCOME START==================== */
 .welcome{
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../images/Vectorrr.png'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    padding: 66px 126px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    border-radius: 16px;
 }
-.welcome .text{}
+.welcome .text{
+    max-width: 697px;
+}
 .welcome .text h2{
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
+    margin-bottom: 20px;
 }
 .welcome .text p{
     color: rgba(255, 255, 255, 0.80);
@@ -163,6 +175,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    margin-bottom: 33px;
 }
 .welcome .text a{
     color: #FFF;
@@ -172,5 +185,7 @@
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 23px;
 }
 /* ====================WELCOME ENDED==================== */
