@@ -44,6 +44,54 @@
 }
 /* ====================HEADER SECTION ENDED==================== */
 
+/* ====================GIFT SECTION START==================== */
+.gift{
+    
+}
+.gift-header{}
+.gift-header h4{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.gift-header h2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.gift-header p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.gift-body{
+
+}
+.gift-body ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+}
+.gift-body ul li{
+    list-style-type: none;
+}
+.gift-body ul li img{
+    width: 100%;
+}
+/* ====================GIFT SECTION ENDED==================== */
+
 /* ====================FOOTER SECTION START==================== */
 .footer{
     background-color: #070211;
